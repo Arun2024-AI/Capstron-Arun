@@ -3,9 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            
+            background-color: rgba(255, 252, 168, 1);
+        }
+
+        .main-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 48px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            border-bottom: 1px solid black;
+            background-color: rgba(255, 252, 168, 1);
+        }
+
+        .nav {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            font-family: 'Sansita Swashed', cursive;
+        }
+
+        .nav span {
+            font-size: 24px;
+            color: black;
+            cursor: pointer;
+        }
+
+        .body-container {
+            height: 4237px;
+            padding: 48px 0;
+        }
+
+        .footer {
+            height: 168px;
+            padding: 96px 0 24px;
+            border-top: 1px solid black;
+        }
+        .home{
+            margin: 5px;
+        }
+        .home span{
+            margin: 4px;
+        }
+        .child1-container{
+            width: 1344px;
+            height: 1441px;
+        }
+        .child11-container{
+            width: 1344px;
+            height: 1152px;
+            border-bottom: 1px;
+            padding-top: 96px;
+            padding-bottom: 96px;
+            gap: 48px;
+            background: #FFFCA8;
+
+        }
+        .child12-container{
+            width: 1344px;
+            height: 240px;
+            font-family: 'Montagu Slab', serif;
+            font-size: 120px;
+            font-weight: 700;
+            line-height: 120px;
+            letter-spacing: -2%;
+            text-align: center;
+
+
+        }
+        .child13-container img{
+            width: 1344px;
+            height: 672px;
+            border-radius: 28px;
+            border: 1px solid #1B221B;
+
+
+        }
+        .child2-container{
+            width: 1344px;
+            height: 1191px;
+            border-bottom: 1px;
+
+        }
+        .child2-container,child21{
+            width: 1344px;
+            height: 430px;
+            padding-top: 48px;
+            padding-bottom: 48px;
+            gap: 48px;
+            background-color: #FFFCA8;
+
+
+        }
+        .personal-agency{
+    width: 1344px;
+    height: 1191px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: -500px;
+}
+.personal-agency .photos{
+    width: 1344px;
+    height: 429px;
+    margin-left: 45px;
+    border-radius: 8%;
+    
+}
+.personal-agency .photos img{
+    width: 416px;
+    height: 277px;
+    margin: 2px;
+}
+
+    </style>
 </head>
 <body>
-    
+    <div class="main-container">
+        <header class="header">
+            <div class="nav">
+                <span>Portfolio</span>
+                
+            </div>
+            <div class="home">
+                <span>Home</span>
+                <span>Contact</span>
+                <span>About</span>
+            </div>
+        </header>
+        <div class="body-container">
+            <div class="child1-container">
+                <div class="child11-container">
+                     <div class="child12-container">Crafting Timeless Designs</div>
+                     <div class="child13-container">
+                        <img src="https://s3-alpha-sig.figma.com/img/d792/9f40/7db84081d0f345393f43358a370127a7?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BMSavy3glidfDI7MwOOtkoag2pmgoSrwRAWU-jUafzo6ZmGItn2c45ARKsdEn0QecqkH0YvC9tBnMvgHOASvFUatDDstkx2WvIEspJlWLcMKjWpItk~kB5YJNRmfgIZ36wBH5WmGhAjA7P8-n9b2B4DCRdgfqTfJe0BvpW8PQgYetw6XvUcFK1Tn7AkTedJMklf0EHNJywbE38gdPYqIuDvAgmo9Uge7VjNPLPxgEbputYHZzukSHS8aJ994xOuZRrWdSAh3Uv1elZByCHtA-sEpetlguGE7ujVJEQhpLPRhOv08J3bfctAQeRE~nFVRLcbge-wqKnmf-sAh2RK~0A__">
+                </div>
+                <div class="child2-container">
+                    
+                    </div>
+                    <div class="personal-agency">
+                        <div class="photos">
+                            <img src="https://s3-alpha-sig.figma.com/img/ed5d/6449/3c1205ec4ba0af7a39befcae9048ddd6?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QUCWS41e7CW50-Vmccn3-pEUC6UmDY6KzEN7x04h7SN34Eix4L~1oQ3jGBgSpF-4ttOrIXHgUhltQvVmAsG12Qrbi~ehMKVLVMcnrD9FPIPKR0OTpB1-hj-k~AOugcRF7rA3brWw0-kO0zgIHr5a~hCRNOz2ESo5mPe9EvuMgUSW3wGfu63Sl9lFbwlwgjkLdQmjfH4LXXUHE4WEUFRFbxfCa0lLyZ3Wn9DA46mEePTsm7d6j88ei28ES08HwBUqseziA0BKyk~wC9HPhfnUImbPihw~or2Xir79Y7SGvSqTbII3hNBlAleuFsmtq11LxISMDlrpprdo1dY2f4Or3A__" alt="unavailable">
+                            <img src="https://s3-alpha-sig.figma.com/img/464d/5383/20f1c92983ab56ffc6470183239c6edf?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Wb122HOaTpN1HMSWKBkjYrQCtNiTOZvojaEeVeGmCos6kESq3uME31-2M1gNJp-D9IwY~mozGar3C5lNZg6VrAU5uueyDX94FHJyOJOmC04rY5fxfuDK0Z3i0dClTwA4iMXekFOnPeyhSsHu2tmOLKFEy035QNWnk1-9n6hIHbqRIDEUWZeCzulvGOejhoBoXMRxOECfDRlVyVAKeJcugMOMbQXwLpficeSgnHIiLXmfEPlVsRJ2xgYZ1IUVPm-3FsvBIASL4HYnoN4tMXvAbm5hes6onnhHo2aPCvZ~Hc-g1b5CFbQYcAtE5MznneZBDq15RiZ3XwqGsjyCRnPREg__" alt="unavailable">
+                            <img src="https://s3-alpha-sig.figma.com/img/38fa/f3aa/1d74c8e89ac02c92d67aecd5250fd456?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=F~nNlRlMLsp~7dE4yx87uozEQCREw7VTAsmXhxo43tqYNX6qxzOmFh1Igh0JioYrwhKyoGUxJHkod49~YZ6IxmLvQ4Z1rMYKflg9mcMbe6u-zwG5Gdj~9ufVXj2wAvKQRcuLKMQKrleaIyzD1VXsQtGjQtysBMaWK7xt5wLQrmb6hs00DXQsPF91atuDzp7yDzk2UpwyKBkaiqpRdo6nVjOn8xeSpi8sVSZuao4Hd~8DC0orNLzjhgr61WTTn7QmDXYnEwEHW6fgJRqsTB9ZVcmKFvboTOD5lpSuuiCgR8QIyZEE6Bcj1lomxWlTrBLzSSn9McL7FHAcfAMT4Cam9w__" alt="unavailable">
+                            <img src="https://s3-alpha-sig.figma.com/img/67c8/e37a/774ef8c7b0bb19417eb75e3ff6f43b61?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mohowuh0Ym9rePxMuGXUGWF4lg7kfEYcidJ5WDCYE8YDIltWk4R4FHCQNo1-PKMnd~e9geuvGSb9io8Ec5cwhSWwj3SytwBBz~sn77nIm7ECB~WI1Ib4v~FM5-iib6p1k1Q6YXkAYPL2XWDsCt018zm9OCbhLWL5kvY1peqGTH0CXKu9FFAV4ap9hdafGvWiXPnYmxXAq0is1fn3H31pKCeloVUT745Lv7UZwk9ii~zoKI-y1QMKEbEh-JFytXBF8U9m6NN89tfnZkSOzQH91jvvaSOYle7DgeHzsbZy-Wyzo5Z9eqvQCff5EPVlzLofdcb9cWZfQl5g~4vFN~vvuA__" alt="unavailable">
+                            <img src="https://s3-alpha-sig.figma.com/img/bf71/a93b/4a9dd90428e4ffe1921f3a687554b1b0?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DCpT9hFJYW3NfyISvv~6u7NwUlLmClV5fJb5sinQzxnjCUgTHq8EsxPT33r1~DDGUwRpgNO-HJ9GCSh5ZEMTpYDoD~sUWPnqi0x-TAhm2aVS~5bxOLN6cm8OHjKd33boqKTjSaXiuy1s1Sa8q2Kn37JOCPpSF5SIAfHoPS6CklPvl5Imu7Tks7mh7Vt3Pk~B2i9QrQzupp8bVx2zP-iuKYwXO6GkNWy-s2IzqVUIhFTJgEF6DONGYLZLvur2-YML-hbHb6EfVCSbCR1g5RyqWb7~3M-uN6waA~r4myCfHwOstC9fbRQv~5Nj2Dl8P29ymByVxNvdHrgjerYfgQRSFQ__" alt="unavailable">
+                            <img src="https://s3-alpha-sig.figma.com/img/9fb2/18f6/a3afb5ba8d766b5a52516667104ad32f?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aqp6A3NW0GNHMVAxpnJ2PC2TOwQA3OiCONrn1YAJt6ZPgSFQzrlT6v6zbFHJvjBEoScYeE~qZICyXBD83-x9HKLdRC80go0UVwqQxNBcV~hh0GZUVrItPX2QX5kOMZ~CtkMilpnYdhqKn1IZqBZZbp9vwMqJ1-yGbfdYbyU4m1OKrGWZtcSw74J33yjANszR8dUUQIryetCZDM2-Ye8mV6ltY1CrSECwcvgdogwfsXjW3DkgkmyqqYzdA4Kx65VvMYEsy24fM8T0zb30Lv6pQWcN44hs3Av4cOMFXEadhnT~kBDIuuV~QTBN~eqVpePpEv9DSqsOoUGKZrauc9xREQ__" alt="unavailable">
+                            <img src="https://s3-alpha-sig.figma.com/img/149e/851b/6cc383780dad39ff43e89979917169fb?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QqIR5w0ROe19xmPIR0IDA36BHKkrQbOiFMmiWsVxHFv45JY1Pqw4t7V1jAFFx~SVo9qz6sQD~oKI-iNCxdSV2nOfYtIZJDz7JAiXhI-E8SZT7zlMYMSrb6-3coAUnGl4lHJMuzelgvv2sSOCfhwOblV-YZuNS42M5gWLRTc~OKIyyBuyWM1dUyTJeLEM9-BgH1ljfpDCB6YQ~1OVESs5GquV6O1zu~lR-C1yqkkFFS3CP32A4fXqo4Ob2PCA76rBGIyF8mLy7plQ0VEcmalhONUwvz5hyCVeWRmnkyqeVfU~zwrHcyOt0gPwmUcyIcr9tBdW2p4s9WxeC3BiP1ot6g__" alt="unavailable">
+                            <img src="https://s3-alpha-sig.figma.com/img/1007/7b78/deb7824f95d4466aabf8ed00899ad47e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NWaXUsZeyM5z5-I6JeKKbrtJo1iPC4nlLmSZe6i8pEf5H4JjJeWc5VLqzwXyldAGfpQMwzacsvfTfwI2eTBXPRcNeZ3BYbV6n3oIMJvs0UI9O0oc~ajyX-oUx0LHTqBtwDaEpN4YhVemJRMOLsTjkh80X6k53bvD0csj2a~p57DfvRHFGhYqOgNvCJhVooS5U7aqi4TfmoFlodXwhwmvVxONTUOuAjK~9KNuQ5Ukhd-Q~HHgqQBPUA-A4FNR1kyhWXcipOguXeiPjlrvDA65N4m8ltCltG9a0mbsMU5e9iKthgvTMoVVRdRINQT3aCdzWZlHNtG1zF8~rhyFkgwdyg__" alt="unavailable">
+                            <img src="https://s3-alpha-sig.figma.com/img/f4e6/aec6/886ad070584f22d9fa855e225201027e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OtWP3-WtGAaq1GTCptFVbZ11NOfUjRtzuDeiBBL~4eXmWNoH8ymyPQURl57FXA0sVR-IU3-NME~MWYBBRzjqCuDxkgkCx8wATkts58360SLFJhPIqzBsEq5ZRrwB0RnY6Fq-u3c-GnaDxyM6N5e62wnwE82kd8Is3K7twgCHPUV90fV3vaBH0DUjnwkXNSz-PKBF9mQjoGy4r18jNkVbtt-csHCrI8zZEeF-WVowVtmcWEInoHvwTkdnq3-YM8QpHpzsepjxFjWtZzKmQFtNjkY13H4bjsMFKkT3JR4G52YhfHnxGN6Eo3c3P8sXVX07lLbwwcl3-Il974zwov8QkA__" alt="unavailable">
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer"></footer>
+    </div>
 </body>
 </html>
